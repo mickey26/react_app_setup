@@ -4,7 +4,6 @@ import { landingAct } from "../actions/LandingActions";
 
 class LandingPage extends React.Component {
   handleChange() {
-    console.log("hf");
     this.props.landingAct();
   }
   render() {
